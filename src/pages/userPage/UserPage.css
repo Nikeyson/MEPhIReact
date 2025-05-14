@@ -1,0 +1,54 @@
+#movie-page {
+    padding: 0px 0px 90px 0px;
+  }
+
+.user-header {
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 36px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+.user-profile-info {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+  
+.user-profile-name {
+    font-size: 16px;
+    font-weight: 500;
+}
+  
+.user-profile-role {
+    font-size: 14px;
+    color: #888;
+}
+  
+.user-content {
+    margin: 0 auto;
+    padding: 48px 114px 24px 114px;
+}
+  
+.user-info {
+    display: grid;
+    gap: 30px;
+    padding-block: 40px;
+    max-width: 30%;
+}
+
+.movies-list {
+    display: grid;
+    grid-template-columns: 29% 29% 29%;
+    gap: 30px;
+    justify-content: space-between;
+    padding-block: 40px;
+}
